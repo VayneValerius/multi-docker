@@ -10,21 +10,21 @@
     },
     {
       "name": "server",
-      "image": "vaynevaleirus/multi-server",
+      "image": "vaynevalerius/multi-server",
       "hostname": "api",
       "essential": false,
       "memory": 128
     },
     {
       "name": "worker",
-      "image": "vaynevaleirus/multi-worker",
+      "image": "vaynevalerius/multi-worker",
       "hostname": "worker",
       "essential": false,
       "memory": 128
     },
     {
       "name": "ngnix",
-      "image": "vaynevaleirus/multi-ngnix",
+      "image": "vaynevalerius/multi-ngnix",
       "hostname": "nginx",
       "essential": true,
       "portMappings": [
